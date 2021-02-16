@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
+import Button from "./Button";
 import { useState } from 'react';
-import { buttons } from "../css/ButtonsContainer.module.css"
+import { buttons } from "../css/ButtonsContainer.module.css";
 
 function ButtonsContainer() {
     const [buttonValues, setButtonValues] = useState([
