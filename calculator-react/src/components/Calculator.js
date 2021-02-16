@@ -1,12 +1,13 @@
 import React from 'react'
-import { calculator } from "..css/Calculator.module.css"
+import style from '../css/Calculator.module.css'
+
 
 function Calculator() {
     return (
-        <div className={calculator}>
-            
+        <div className={style.calculator}>
+            <h1>This is the calculator component</h1>
         </div>
     )
 }
 
-export default Calculator
+export default Calculator;
