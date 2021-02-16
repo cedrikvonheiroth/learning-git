@@ -1,4 +1,5 @@
 import React from 'react'
+import { buttons } from "../css/ButtonsContainer.module.css"
 
 function ButtonsContainer() {
     return (
